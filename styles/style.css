@@ -1,0 +1,30 @@
+html{
+    font-size: 14px; /*px means "pixels": the base font size is now 10 pixels high */
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size:24px;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+}
+
+p, li{
+    font-size: 12;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+p.middle{
+    text-align: center;
+}
+
+body {
+    width:700px;
+    margin: 5% auto;
+    background-color: rgba(99, 184, 187, 0.904);
+    padding: 20px 20px 400px 20px;
+    border: 3px solid navy;
+    text-align: left;
+}
+/*color:red;*/
